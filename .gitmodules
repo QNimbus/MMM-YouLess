@@ -1,0 +1,3 @@
+[submodule "jsGauge"]
+	path = jsGauge
+	url = git@github.com:QNimbus/jsGauge.git

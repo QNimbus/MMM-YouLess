@@ -1,0 +1,28 @@
+{
+  "name": "mmm-youless",
+  "version": "0.1.1",
+  "description": "MagicMirrorModule-YouLess, retrieves usage information from YouLess energy monitor (http://youless.nl)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd jsGauge && npm install && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/QNimbus/MMM-YouLess.git"
+  },
+  "keywords": [
+    "youless\u001b[Hmagi\u001b[C\u001b[F"
+  ],
+  "author": "B. van Wetten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QNimbus/MMM-YouLess/issues"
+  },
+  "homepage": "https://github.com/QNimbus/MMM-YouLess#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}
